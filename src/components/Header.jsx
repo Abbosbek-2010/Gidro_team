@@ -7,7 +7,7 @@ const Header = () => {
       <div>
         <nav>
           <ul>
-            <li><h2>Amabar <br /> WOOD</h2></li>
+            {/* <li><h2>Amabar <br /> WOOD</h2></li> */}
           </ul>
         </nav>
       </div>

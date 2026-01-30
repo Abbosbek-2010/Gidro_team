@@ -1,0 +1,142 @@
+.s2-text-img{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s2-text{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.s2-img {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-s2{
+    width: 1200px;
+    height: 531px;
+    background-image: url(../assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.s2-text h1 {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s2-text h1 span{
+    color: #ACA095;
+}
+
+
+.s2-text button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #CC1616;
+    color: white;
+}
+
+
+.img-s2 button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #CC1616;
+    font-size: 30px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.15),
+        0 0 0 20px #FFFFFF66;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.img-s2 button:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 15px 35px rgba(156, 80, 80, 0.2),
+        0 0 0 18px rgba(255, 255, 0, 0.6);
+}
+
+
+
+
+
+.s2-bg2{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../assets/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+
+
+.bg2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+
+
+.bg2 h1{
+    font-size: 40px;
+}
+
+
+.bg2 p{
+    font-size: 25px;
+}
+
+
+
+.s2-inp{
+    display: flex;
+    gap: 20px;
+}
+
+.s2-inp input{
+    width: 250px;
+    height: 40px;
+    padding: 20px;
+}
+
+.s2-inp button{
+    width: 150px;
+    height: 45px;
+    
+    background-color: #E2AE80;
+    color: white;
+}
+
