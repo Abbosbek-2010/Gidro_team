@@ -1,11 +1,11 @@
 import "./Footer.css"
-// import iconimg from "../assets/iconimg.png"
+import iconimg from "../assets/iconimg.png"
 
 const Footer = () => {
   return (
    <>
 
-   {/* <div className="f-container">
+   <div className="f-container">
    <div className="card-mini">
      <div className="card">
       <h1>AMBAR WOOD</h1>
@@ -34,7 +34,7 @@ const Footer = () => {
       <img src={iconimg} alt="" />
     </div>
    </div>
-   </div> */}
+   </div>
    </>
   )
 }
