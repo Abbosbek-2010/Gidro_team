@@ -1,0 +1,293 @@
+.s2-text-img{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s2-text{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.s2-img {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-s2{
+    width: 90%;
+    height: 531px;
+    background-image: url(../assets/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+.s2-text h1 {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.s2-text h1 span{
+    color: #ACA095;
+}
+
+
+.s2-text button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #CC1616;
+    color: white;
+}
+
+
+.img-s2 button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #CC1616;
+    font-size: 30px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.15),
+        0 0 0 20px #FFFFFF66;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.img-s2 button:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 15px 35px rgba(156, 80, 80, 0.2),
+        0 0 0 18px rgba(255, 255, 0, 0.6);
+}
+
+
+
+
+
+.s2-bg2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.s2-bg2-card{
+        width: 100%;
+    height: 80%;
+    background-image: url(../assets/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+
+
+.bg2{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+
+
+.bg2 h1{
+    font-size: 40px;
+}
+
+
+.bg2 p{
+    font-size: 25px;
+}
+
+
+
+.s2-inp{
+    display: flex;
+    gap: 20px;
+}
+
+.s2-inp input{
+    width: 250px;
+    height: 40px;
+    padding: 20px;
+}
+
+.s2-inp button{
+    width: 150px;
+    height: 45px;
+    
+    background-color: #E2AE80;
+    color: white;
+}
+
+
+
+
+.S2-text-img-card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.S2-mini{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.s2-text-btn{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s2-text-btn h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.s2-text-btn h1 span{
+    color: #ACA095;
+}
+
+
+
+.btn-card{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-card button{
+    width: 150px;
+    height: 50px;
+
+}
+
+
+.btn1-s2{
+    background: #E2AE80;
+    border: none;
+    color: white;
+}
+.btn2-s2{
+    background: none;
+    border: 1px solid #E2AE80;
+}
+
+
+
+
+.s2-img-text{
+    width: 100%;
+    height: 60%;
+    border: 2px solid #E2AE80;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s2img{
+    width: 700px;
+    height: 380px;
+    background-image: url(../assets/bg3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.s2text{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+}
+
+.s2text h4{
+    font-size: 25px;
+}
+
+
+.s2text p{
+    font-size: 18px;
+}
+
+
+.twyu{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.imgs2{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.imgs1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs1 img,
+.imgs2 img{
+    width: 25px;
+    height: 25px;
+}
