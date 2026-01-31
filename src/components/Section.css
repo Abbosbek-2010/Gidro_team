@@ -21,3 +21,130 @@
     padding-right: 120px;
     margin-top: 80px;
 }
+.add{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 35px;
+}
+.add2{
+    gap: 30px;
+    display: flex;
+}
+.a4{
+    margin-top: 18px;
+}
+.add_two{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.class{
+    display: flex;
+    gap: 30px;
+}
+.class2{
+    margin-top: 20px;
+}
+.Sone{
+    background-image: url(../assets/Sone.png);
+    width: 100%;
+    height: 562px;
+    margin-top: 62px;
+}
+.Sone h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 131px;
+    margin-left: 120px;
+}
+.Sone h1 span{
+    color: rgba(172, 160, 149, 1);
+    margin-left: 30px;
+}
+.in{
+    display: flex;
+    color: white;
+    margin-left: 120px;
+    margin-top: 100px;
+    gap: 20px;
+}
+.in input{
+    width: 250px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+.in button{
+    padding: 20px 41px;
+    border-radius: 5px;
+    background-color: rgba(226, 174, 128, 1);
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+.os{
+    margin-left: 127px;
+}
+.os p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.rel_div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.rel{
+    margin-top: 65px;
+}
+.rel_div h1{
+    color: rgba(34, 34, 34, 1);
+    font-size: 40px;
+    font-weight: 400;
+}
+.rel_div h1 span{
+    margin-left: 97px;
+    color: rgba(172, 160, 149, 1);
+}
+.rel_div button{
+    padding: 22px 30px;
+    border: 2px solid rgba(216, 164, 122, 1);
+    background: transparent;
+    border-radius: 5px;  
+    margin-left: 10px;  
+}
+.back1{
+    background-image: url(../assets/Url1.png);
+    width: 585px;
+    height: 435px;
+}
+.back2{
+    background-image: url(../assets/Url2.png);
+    width: 585px;
+    height: 435px;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 38px;
+}
+.divv{
+    margin-top: 323px;
+    margin-left: 41px;
+    color: white;
+}
+.divv h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.divv p{
+    color: rgba(207, 155, 116, 1);
+    margin-top: 5px;
+}
