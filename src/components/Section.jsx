@@ -77,7 +77,6 @@ const Section = () => {
           <div className='btn_div'>
             <button>Бесплатный замер</button>
           <button>Все проекты</button>
-          <p>Подробнее</p>
           </div>
         </div>
 
